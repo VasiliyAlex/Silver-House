@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__nav-list {
+  display: flex;
+  row-gap: 10px;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.header__nav-link {
+  color: #8C8A8A;
+  font-family: Roboto;
+  font-size: 18px;
+
+}
+
+.header__nav-logo {
+  margin: 50px 0 80px;
+  width: 120px;
+  height: 151px;
+}
+
+.header__img {
+  max-width: 1110px;
+  width: 100%;
+  /* height: 450px; */
+}
+
+.header__img img{
+  width: 100%;
+}
+
+.text {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.text1 {
+  width: 730px;
+  background: var(--grey, #f0f0f0);
+  padding: 50px 95px 50px 40px;
+}
+
+.h {
+  color: #4581b7;
+  font-size: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: normal;
+}
+
+.leftp {
+  color: #808080;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 25px 0;
+}
+
+.text2 {
+  width: 350px;
+  flex-shrink: 0;
+  background: var(--grey, #f0f0f0);
+  padding: 50px 24px 0 40px;
+}
+
+.rightp {
+  display: flex;
+  width: 286px;
+  flex-direction: column;
+  color: #808080;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 25px 0;
+  gap: 25px;
+}
+
+.call {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.end {
+  background: var(--grey, #f0f0f0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+  padding: 15px 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.left__box {
+  max-width: 250px;
+  width: 100%;
+}
+
+.right__box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right__box-text {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.right__box-call {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-logo img{
+  width: 100%;
+}
